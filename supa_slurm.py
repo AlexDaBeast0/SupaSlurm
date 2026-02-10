@@ -10,6 +10,11 @@ import re
 import time
 
 
+# TODO:
+# - Chnage config files to accomodate default commands (such as importing modules and setting up envs)
+#   - Methods pertaining to these commands
+
+
 class SlurmConfig:
     '''
     Internal representation of a Slurm job configuration.

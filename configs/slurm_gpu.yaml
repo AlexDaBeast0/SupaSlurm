@@ -1,0 +1,11 @@
+job-name: gpu_job
+partition: gpu
+account: parisahlab
+gres=gpu: 1
+cpus-per-task: 4
+mem: 8G
+time: 1-00:00:00
+output: slurm-%j.out
+error: slurm-%j.err
+chdir: /gpfs/projects/parisahlab/alfa
+export: ALL
