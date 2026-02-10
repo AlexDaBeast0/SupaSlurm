@@ -166,7 +166,7 @@ slurm.add_arguments(array=5)  # Creates 0-5
 slurm.add_arguments(array='1-10')  # Creates 1-10
 
 # Python range
-slurm.add_arguments(array=range(0, 100, 10))  # Creates 0-90 (step 10)
+slurm.add_arguments(array=range(0, 90))  # Creates 0-90
 ```
 
 ### Saving Job Configurations
