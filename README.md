@@ -29,7 +29,7 @@ pip install pyyaml
 ### Basic Job Submission
 
 ```python
-from slurm_wrapper import Slurm
+from supa_slurm import Slurm
 import datetime
 
 # Create a Slurm job manager
@@ -58,7 +58,7 @@ print(f"Submitted job {jobs[0].job_id}")
 ### Array Job Submission
 
 ```python
-from slurm_wrapper import Slurm
+from supa_slurm import Slurm
 
 slurm = Slurm()
 
@@ -117,7 +117,7 @@ error: slurm-%j.err
 Load and use:
 
 ```python
-from slurm_wrapper import Slurm, SlurmConfig
+from supa_slurm import Slurm, SlurmConfig
 from pathlib import Path
 
 config = SlurmConfig.from_yaml('configs/slurm_default.yaml')
@@ -127,7 +127,7 @@ slurm = Slurm(config=config)
 ### Programmatic Configuration
 
 ```python
-from slurm_wrapper import SlurmConfig, Slurm
+from supa_slurm import SlurmConfig, Slurm
 
 # Create config directly
 config = SlurmConfig(
@@ -258,7 +258,7 @@ Internal configuration representation (usually not directly instantiated).
 ### GPU Job with Environment Setup
 
 ```python
-from slurm_wrapper import Slurm
+from supa_slurm import Slurm
 import datetime
 
 slurm = Slurm()
@@ -285,7 +285,7 @@ jobs = slurm.sbatch(output_path='./job_scripts')
 ### Parallel Data Processing
 
 ```python
-from slurm_wrapper import Slurm
+from supa_slurm import Slurm
 from pathlib import Path
 
 slurm = Slurm()
@@ -314,7 +314,7 @@ print("All processing complete!")
 ### Job Dependency Chain
 
 ```python
-from slurm_wrapper import Slurm
+from supa_slurm import Slurm
 
 # Job 1: Data preprocessing
 preprocess = Slurm()
