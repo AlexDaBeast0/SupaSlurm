@@ -339,14 +339,6 @@ job2 = train.sbatch()[0]
 - Access to a Slurm cluster
 - PyYAML (optional, for YAML configuration support)
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-[Add your license here]
-
 ## Troubleshooting
 
 **Job submission fails:**
@@ -361,7 +353,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 **Status checks return "COMPLETED or NOT FOUND":**
 - This is normal for completed jobs (they leave the queue)
 - Use Slurm accounting tools (e.g., `sacct`) for historical job data
-
-## Acknowledgments
-
-Built to simplify Slurm job management for Python-based HPC workflows.
