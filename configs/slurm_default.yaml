@@ -1,0 +1,12 @@
+job-name: compute_job
+partition: compute
+account: parisahlab
+time: 1-00:00:00
+nodes: 1
+ntasks: 1
+cpus-per-task: 4
+mem: 8G
+output: /projects/parisahlab/alfa/logs/out
+error: /projects/parisahlab/alfa/logs/err
+chdir: /gpfs/projects/parisahlab/alfa
+export: ALL
