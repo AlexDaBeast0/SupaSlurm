@@ -1,5 +1,6 @@
 # Slurm Python Wrapper
 
+(Docs made with love, by robots. Some info may not be 100% accurate)
 A Python wrapper for submitting and managing Slurm jobs programmatically. This library provides an intuitive interface for creating Slurm batch scripts, submitting jobs, and monitoring their execution.
 
 ## Features
