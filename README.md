@@ -16,8 +16,8 @@ A Python wrapper for submitting and managing Slurm jobs programmatically. This l
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/slurm-wrapper.git
-cd slurm-wrapper
+git clone https://github.com/yourusername/SupaSlurm.git
+cd SupaSlurm
 
 # No additional dependencies required beyond standard library
 # Optional: Install PyYAML if using YAML configurations
