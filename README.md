@@ -16,7 +16,7 @@ A Python wrapper for submitting and managing Slurm jobs programmatically. This l
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/SupaSlurm.git
+git clone https://github.com/AlexDaBeast0/SupaSlurm.git
 cd SupaSlurm
 pip install -r requirements.txt
 ```
